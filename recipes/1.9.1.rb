@@ -1,7 +1,11 @@
 packages = Array.new
 
 case node[:lsb][:codename]
-when "lucid", "precise"
+when "lucid"
+  packages |= %w/
+    libruby1.9.1
+  /
+when "precise"
   packages |= %w/
     libruby1.9.1
   /
