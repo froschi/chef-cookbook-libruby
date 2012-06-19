@@ -9,3 +9,8 @@ version          "0.0.1"
 
 recipe           "libruby::1.8", ""
 recipe           "libruby::1.9.1", ""
+
+depends          "libgdbm", ">= 0.0.1"
+depends          "libncurses", ">= 0.0.1"
+depends          "libreadline", ">= 0.0.1"
+depends          "libssl", ">= 0.0.1"
